@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(223, 217, 217);
+}
+h1{}
+.top-banner{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 5px;
+}
