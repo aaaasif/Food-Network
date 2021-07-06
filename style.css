@@ -198,10 +198,6 @@ i {
     font-size: 18px;
     transition: 0.1s;
 }
-i:hover {
-    color: #FA994C;
-    transform: scale(1.5);
-}
 #lang {
     border: none;
     padding: 2.5px 5px;
