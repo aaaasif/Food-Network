@@ -21,21 +21,38 @@ h1{
     background-image: url(picture/7.png);
     background-repeat: no-repeat;
 }
-#text-recipies{
+#sec3 {
+    margin-top: 100px;
+}
+#sec3 h2 {
     text-align: center;
-    margin: 20px 370px;
+    color: #575757;
+    margin-bottom: 40px;
 }
-.flex-container{
+#sec3-p {
+    margin: 0px auto 25px;
+    width: 50%;
+    text-align: center;
+}
+#food-items {
     display: flex;
-    padding: 10px;
+    margin: 0px 75px;
 }
-.flex-container img{
-    width: 300px;
-    border-radius: 10px;
+.food-items-box {
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px;
+    box-shadow: 1px 1px 25px rgb(204, 204, 204);
 }
-.flex-box{
-    border: 3px solid black;
-    margin: 5px;
-    border-radius: 10px;
-    box-shadow: 100px rgb(8, 8, 8);
+.food-items-box img {
+    width: 375px;
+}
+.food-items-box h3 {
+    margin: 25px 0px 15px;
+    font-weight: 900;
+}
+.food-items-box p {
+    margin-bottom: 25px;
+    font-size: 21px;
+    color: #575757;
 }
