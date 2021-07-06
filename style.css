@@ -17,6 +17,12 @@ h1{
 .half-width img{
     width: 300px;
 }
+.orange{
+    color: rgb(238, 177, 65);
+}
+.top-text{
+    padding-top: 100px;
+}
 .about{
     background-image: url(picture/7.png);
     background-repeat: no-repeat;
@@ -55,4 +61,13 @@ h1{
     margin-bottom: 25px;
     font-size: 21px;
     color: #575757;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(rgba(196, 135, 24, 0.877), tomato);
+    padding: 20px 30px;
+    color: white;
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 40px;
 }
