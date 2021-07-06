@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -12,8 +15,27 @@ h1{
     margin: 90px;
 }
 .half-width img{
-    width: 60%;
+    width: 300px;
 }
 .about{
-    background-image: s;
+    background-image: url(picture/7.png);
+    background-repeat: no-repeat;
+}
+#text-recipies{
+    text-align: center;
+    margin: 20px 370px;
+}
+.flex-container{
+    display: flex;
+    padding: 10px;
+}
+.flex-container img{
+    width: 300px;
+    border-radius: 10px;
+}
+.flex-box{
+    border: 3px solid black;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 100px rgb(8, 8, 8);
 }
