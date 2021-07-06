@@ -28,16 +28,12 @@ li {
     text-decoration: none;
     color: white;
 }
-.menu-link:hover {
-    color: #FA994C;
-}
 #search {
-    background-color: #ff9034;
+    background-color: #ad5d1b6e;
     border-radius: 10px;
-    padding: 7px 15px;
+    padding: 8px 15px;
     border: none;
 }
-/*1st-------------Section*/
 #sec1 {
     display: flex;
     background-image: url(picture/exp-a.png);
@@ -85,10 +81,9 @@ li {
 #sec1 img {
     margin-right: 60px;
 }
-/*2nd---------------Section*/
 #sec2 {
     display: flex;
-    background-image: url(Picture/7.png);
+    background-image: url(picture/7.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -108,7 +103,6 @@ li {
     margin-bottom: 75px;
     width: 80%;
 }
-/*3nd---------------Section*/
 #sec3 {
     margin-top: 100px;
 }
@@ -144,7 +138,6 @@ li {
     font-size: 21px;
     color: #575757;
 }
-/*4th---------------Section*/
 #sec4-activity {
     padding: 75px 0px 75px 240px;
     display: flex;
