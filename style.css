@@ -17,7 +17,6 @@ li {
     font-size: 20px;
 }
 #food-title {
-    font-weight: 900;
     color: #FA994C;
 }
 #title {
@@ -33,7 +32,7 @@ li {
     background-image: url(picture/exp-a.png);
     background-repeat: no-repeat;
     background-size: 5%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .sec-items {
     width: 50%;
@@ -43,10 +42,16 @@ li {
     margin-left: 100px;
 }
 #sec1-left h1 {
-    font-size: 65px;
+    font-size: 30px;
     color: #575757;
     margin-bottom: 50px;
 }
+#sec1-left h5 {
+    margin-bottom: 40px;
+}
+#sec1-left img {
+    height: 100px;
+} 
 #skip {
     color: #ff7e2e;
 }
@@ -63,6 +68,7 @@ li {
     font-size: 20px;
     padding: 20px 40px;
     border-radius: 50px;
+    margin-top: 10px;
 }
 #sec1-left a:hover {
     background-color: #FD482D;
@@ -77,9 +83,10 @@ li {
 }
 #sec2 {
     display: flex;
-    background-image: url(picture/7.png);
-    background-size: cover;
+    background-image: url(images/shapes/shape-1.png);
+    background-size: 300px;
     background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
 #sec2 img {
     width: 350px;
@@ -87,11 +94,21 @@ li {
 }
 #sec2-right {
     margin-top: 100px;
+    margin-left: 30px;
 }
-#sec2-right h2 {
+#sec2-right h3 {
     color: #575757;
     margin-bottom: 40px;
     font-size: 40px;
+}
+.box-1{
+    background-color: rgb(169, 223, 223);
+}
+.box-2{
+    background-color: rgb(245, 198, 206);
+}
+.box-3{
+    background-color: rgb(224, 169, 188);
 }
 #sec2-right p {
     margin-bottom: 75px;
@@ -99,6 +116,7 @@ li {
 }
 #sec3 {
     margin-top: 100px;
+    width: 100% auto;
 }
 #sec3 h2 {
     text-align: center;
@@ -121,7 +139,8 @@ li {
     box-shadow: 1px 1px 25px rgb(204, 204, 204);
 }
 .food-items-box img {
-    width: 375px;
+    width: 150px;
+    align-items: center;
 }
 .food-items-box h3 {
     margin: 25px 0px 15px;
